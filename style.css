@@ -138,6 +138,42 @@ header{
 .f-image{
     max-width: 100%;
 }
+/* Features and badges section style */
+p.common-des {
+    margin-bottom: 50px;
+}
+.features{
+    gap: 140px;
+    margin-top: 130px;
+}
+#experience-badge{
+    padding: 42px 46px;
+    font-size: 24px;
+    font-weight: normal;
+    margin-left: -96px;
+    margin-top: -96px;
+
+}
+.year{
+    font-size: 2.75rem;
+    font-weight: bold;
+}
+.card{
+    padding: 30px 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    height: 110px;
+}
+#f-border{
+    border-left: 5px solid #ff900e;
+    padding: 20px;
+}
+.f-c-title{
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
 /* Some fact section style */
 .fact-card-container{
     display: grid;
