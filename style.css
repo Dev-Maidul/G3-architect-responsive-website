@@ -154,6 +154,9 @@ p.common-des {
     margin-top: -96px;
 
 }
+.features-right img{
+    width: 100%;
+}
 .year{
     font-size: 2.75rem;
     font-weight: bold;
@@ -263,5 +266,18 @@ footer{
         margin-bottom: 50px;
         gap: 10px;
         margin-left: 86px;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .features-left h4, p{
+        margin-left: 20px;
+    }
+    #experience-badge {
+        padding: 20px;
+        font-size: 24px;
+        font-weight: normal;
+        margin-left: 137px;
+        margin-top: -72px;
     }
 }
