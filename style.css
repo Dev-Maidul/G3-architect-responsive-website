@@ -161,6 +161,22 @@ header{
 .card-des{
     margin-top: 5px;
 }
+/* Sponsor section style */
+.sponsor-info{
+    text-align: center;
+}
+.sponsor-img-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 30px;
+}
+.sponsor-img-container img{
+    filter: grayscale(100%);
+}
+
 
 /* Responsive media query */
 @media screen and (max-width:576px) {
